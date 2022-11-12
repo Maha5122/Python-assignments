@@ -1,0 +1,161 @@
+#Day 1
+
+#variables
+
+X = 1
+Y = 12.5
+Z = "Mahalakshmi"
+A = 2j
+print(type(X))
+print(type(Y))
+print(type(Z))
+print(type(A))
+
+
+
+#Operators
+
+a = 10
+b = 20
+
+print(a+b) #addition
+print(a*b) #Multiplication
+print(a-b) #Subtraction
+print(a%b) #Modulus
+print(a//b) #floor division
+print(a**b) #Exponentiation
+
+
+#if condition
+
+a = 4
+b = 7
+if a>b:
+    print("a is greater")
+else:
+    print("b is greater")
+ 
+
+
+# for loop
+
+names = ['maha', 'divya', 'suruthi', 'ayesha']
+for all_name in names:
+    print(all_name)
+ 
+
+
+#Values printing
+
+number1 = 5
+name = "mahalakshmi"
+print(number1)
+print(name)
+
+
+#Day 2
+
+#Practice
+#Print text
+
+print("Hello World")
+
+#assignnment
+
+print("MAHALAKSHMI IS A CODING EXPERT")
+
+
+#Practice
+
+Num1 = 57
+Num2 = 65
+print(Num1 + Num2)
+
+
+#input from user
+
+Num1 = int(input("Enter the number: "))
+Num2 = int(input("Enter the number: "))
+print(Num1+Num2)
+
+
+
+Num1 = int(input("Enter the number: "))
+Num2 = int(input("Enter the number: "))
+sum = float(Num1) + float(Num2)
+print("The sum of {0} and {1} is {2}".format(Num1,Num2,sum))
+
+
+
+#assignment
+
+
+Num1 = int(input("Enter the number: "))
+Num2 = int(input("Enter the number: "))
+Num3 = int(input("Enter the number: "))
+
+sum = float(Num1) + float(Num2)+float(Num3)
+print("The sum of {0} and {1} and {2} is {3}".format(Num1,Num2,Num3,sum))
+
+
+#Day 3
+#assignments
+
+#Printing value 1-10 using for loop
+
+for i in range(1,11):
+    print(i)
+
+
+
+
+
+#5 table using python
+
+Table = int(input("Enter number: "))
+for i in range(1,11):
+
+    print(i,"*", Table, "=", i*Table )
+
+
+
+
+#Max of 2 numbers
+
+N1 = int(input("Enter number 1 : "))
+N2 = int(input("Enter number 2 : "))
+if N1>N2:
+    print("N1 is greater")
+else:
+    print("N2 is greater")
+
+
+#max of 3 numbers
+
+N1 = int(input("Enter number 1 : "))
+N2 = int(input("Enter number 2 : "))
+N3 = int(input("Enter number 3 : "))
+
+if N1>N2 and N1>N3:
+    print("N1 is greater")
+elif N2>N1 and N2>N3:
+    print("N2 is greater")
+else:
+    print("N3 is greater")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
